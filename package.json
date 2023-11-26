@@ -1,0 +1,19 @@
+{
+  "name": "deeplx-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hono/node-server": "^1.2.3",
+    "@ifyour/deeplx": "^0.1.14",
+    "express": "^4.18.2",
+    "hono": "^3.10.0"
+  }
+}
